@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #303030;
+    color: #ffffff;
+    padding: 128px 0px 100px 48px;
+}
+
+.cabecalho h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cabecalho p {
+    margin-top: 10px;
+}
+
+
