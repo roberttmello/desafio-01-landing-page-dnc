@@ -110,4 +110,11 @@
     border-radius: 4px;
     height: 36px;
     width: 128px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+   background-color:#ce8731; 
+   transform: translateY(-7px);
+   transition-duration: 0.4s;
 }
