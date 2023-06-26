@@ -1,3 +1,4 @@
+/* Geral */
 * {
     margin: 0;
     padding: 0;
@@ -21,4 +22,94 @@
     margin-top: 10px;
 }
 
+/* Números */
+.numeros {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 60px 100px 40px 100px;
+    
+}
 
+.numeros span {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+/* Números - RESPONSIVO */
+@media screen and (max-width: 992px){
+	.numeros {
+        grid-auto-flow: row;
+        justify-content: center;
+    }
+
+    .numeros p {
+        margin-top: 32px;
+    }
+}
+
+
+/* História */
+.historia {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 60px 150px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.historia h2 {
+    margin-bottom: 24px;
+}
+
+.historia p {
+    margin-bottom: 24px;
+}
+
+/* História - RESPONSIVO */
+@media screen and (max-width: 1024px){
+    .historia {
+        grid-auto-flow: row;
+        justify-content: center;
+    }   
+    
+    .historia p {
+        text-align: justify;
+    }
+
+    .historia img {
+        text-align: center;
+    }
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+    background-color: #303030;
+    padding: 60px 0px;
+}
+
+.contato h3 {
+    color: #ffffff;
+}
+
+.contato input {
+    border: none;
+    border-radius: 4px;
+    height: 36px;
+    margin-top: 30px;
+    padding-left: 12px;
+}
+
+.contato button {
+    background-color:#C07212;
+    color: #ffffff;
+    margin-top: 48px;
+    border: none;
+    border-radius: 4px;
+    height: 36px;
+    width: 128px;
+}
